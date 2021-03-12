@@ -1,0 +1,30 @@
+{
+  "name": "conference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "json-server" : "json-server --watch db.json --port 4000 --delay 2000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "axios": "^0.21.1",
+    "install": "^0.13.0",
+    "next": "^10.0.4",
+    "npm": "^7.5.4",
+    "postcss": "^8.2.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-simple-img": "^2.3.9",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}
